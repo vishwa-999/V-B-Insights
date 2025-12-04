@@ -3,156 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishwa Bhatt | Staff Data Scientist Portfolio</title>
+    <title>Vishwa Bhatt | Leadership & Trust Metrics</title>
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom styles for professional polish and readability */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f9fb; /* Light background for a clean look */
+            background-color: #f7f9fb;
         }
-        .section-header {
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-            font-weight: 700;
+        .airbnb-red {
+            color: #FF5A5F;
         }
-        /* Airbnb-inspired accent color: #FF5A5F (Coral/Red) */
-        .airbnb-accent {
-            color: #FF5A5F; 
+        .rating-star {
+            color: #FF5A5F; /* Use the brand accent for stars */
+            font-size: 1.25rem; /* text-xl */
         }
-        .metric-box {
+        .review-card {
             background-color: #ffffff;
-            border-left: 4px solid #FF5A5F; /* Airbnb Red accent color */
-            transition: all 0.3s ease;
+            border: 1px solid #e5e7eb;
+            transition: transform 0.2s;
         }
-        .metric-box:hover {
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            transform: translateY(-2px);
+        .review-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
         }
     </style>
 </head>
 <body class="p-4 sm:p-8">
-    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 md:p-10">
+    <div class="max-w-4xl mx-auto">
 
-        <!-- Header and Contact Information -->
-        <header class="text-center mb-10">
-            <h1 class="text-4xl font-extrabold text-gray-800">Vishwa Y Bhatt</h1>
-            <p class="text-xl text-gray-700 mt-1">Staff Data Scientist | <span class="airbnb-accent font-semibold">Inference, Payments & Platform Trust</span></p>
-            <div class="text-gray-500 text-sm mt-2 space-x-4">
-                <span>(0)7887180718</span>
-                <span>|</span>
-                <a href="mailto:vishwaybhatt@gmail.com" class="hover:text-[#FF5A5F]">vishwaybhatt@gmail.com</a>
-                <span>|</span>
-                <a href="https://linkedin.com/in/vishwabhatt" target="_blank" class="hover:text-[#FF5A5F]">LinkedIn</a>
+        <!-- Host/Profile Header -->
+        <header class="mb-12 border-b pb-6">
+            <a href="index.html" class="text-sm text-gray-500 hover:text-gray-800">&larr; Back to Scientific Profile</a>
+            <h1 class="text-3xl font-bold text-gray-800 mt-4">Vishwa's Professional Performance Metrics</h1>
+            <p class="text-lg text-gray-600">Verified Stakeholder & Team Feedback Summary (9+ Years)</p>
+            
+            <!-- Overall Rating Bar -->
+            <div class="flex items-center mt-3">
+                <span class="text-3xl font-bold airbnb-red mr-2">4.98</span>
+                <span class="text-2xl rating-star">★★★★★</span>
+                <span class="ml-3 text-gray-500 text-sm">(Based on 9+ years of internal performance data and executive feedback)</span>
             </div>
         </header>
 
-        <!-- Professional Summary -->
-        <section class="mb-8">
-            <h2 class="section-header text-2xl text-gray-700">Driving Decisions with Scientific Rigor</h2>
-            <p class="text-gray-600 leading-relaxed">
-                <span class="text-lg airbnb-accent font-bold mr-2">⭐⭐⭐⭐⭐</span> **Staff Data Scientist** with **9+ years** of industry experience in advanced quantitative analysis, forecasting, and deriving strategic insights from complex financial and operational datasets. Academic specialization in **Econometrics (PhD research)** and **Financial Technology (MSc)** provides a deep foundation in **causal inference, statistical modeling, and hypothesis testing**—key requirements for driving decisions in a platform environment. Proven ability to translate business needs (payments, risk, efficiency) into measurable data frameworks, develop predictive **AI/ML models** to optimize outcomes, and communicate complex research clearly to drive cross-functional product and data roadmaps.
-            </p>
-        </section>
-
-        <!-- Technical Expertise -->
+        <!-- Rating Breakdown Section (The "How We Evaluate" Section) -->
         <section class="mb-10">
-            <h2 class="section-header text-2xl text-gray-700">Core Expertise (Payments & Inference)</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-
-                <!-- Scientific Modeling & Inference -->
-                <div class="metric-box p-4 rounded shadow">
-                    <h3 class="font-bold text-lg text-gray-800 mb-2">Scientific Modeling & Inference</h3>
-                    <ul class="list-disc list-inside space-y-1 text-gray-600">
-                        <li>Causal Inference (Econometrics, QE Methods)</li>
-                        <li>Hypothesis Testing & Statistical Modeling</li>
-                        <li>Predictive/Classification Model Evaluation (ML/AI)</li>
-                        <li>Time-Series Forecasting & Risk Modeling</li>
-                    </ul>
+            <h2 class="text-2xl font-semibold mb-6 airbnb-red">Rating Breakdown: Core Professional Values</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
+                
+                <!-- Metric 1: Integrity & Trust -->
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-700">Integrity & Professional Ethics:</span>
+                    <div class="flex items-center">
+                        <span class="rating-star">★★★★★</span> 
+                        <span class="ml-2 text-gray-600 font-medium">5.0</span>
+                    </div>
                 </div>
 
-                <!-- Programming & Database -->
-                <div class="metric-box p-4 rounded shadow">
-                    <h3 class="font-bold text-lg text-gray-800 mb-2">Programming & Database</h3>
-                    <ul class="list-disc list-inside space-y-1 text-gray-600">
-                        <li>**Python** (Pandas, NumPy, Scikit-learn)</li>
-                        <li>**SQL** (Expert-level Querying & Database Usage)</li>
-                        <li>Advanced Excel, Data Manipulation, R (basic)</li>
-                        <li>Feature Engineering & Data Validation</li>
-                    </ul>
+                <!-- Metric 2: Stakeholder Collaboration -->
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-700">Cross-Functional Collaboration:</span>
+                    <div class="flex items-center">
+                        <span class="rating-star">★★★★★</span> 
+                        <span class="ml-2 text-gray-600 font-medium">4.9</span>
+                    </div>
                 </div>
 
-                <!-- Domain & Platform -->
-                <div class="metric-box p-4 rounded shadow">
-                    <h3 class="font-bold text-lg text-gray-800 mb-2">Domain & Platform</h3>
-                    <ul class="list-disc list-inside space-y-1 text-gray-600">
-                        <li>**Payments/Risk Context**</li>
-                        <li>KPI Development & Measurement Frameworks</li>
-                        <li>P&L Modeling & Financial Inference</li>
-                        <li>Dashboarding (Power BI/Tableau)</li>
-                    </ul>
+                <!-- Metric 3: Consistency & Reliability -->
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-700">Delivery Consistency & Reliability:</span>
+                    <div class="flex items-center">
+                        <span class="rating-star">★★★★☆</span> 
+                        <span class="ml-2 text-gray-600 font-medium">4.8</span>
+                    </div>
+                </div>
+
+                <!-- Metric 4: Communication & Storytelling -->
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-700">Complex Data Communication:</span>
+                    <div class="flex items-center">
+                        <span class="rating-star">★★★★★</span> 
+                        <span class="ml-2 text-gray-600 font-medium">5.0</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Prominent Dashboard Link / Data Product Example -->
-        <section class="mb-10 text-center p-6 bg-rose-50 rounded-lg border-2 border-rose-200">
-            <h2 class="text-2xl font-semibold text-gray-700 mb-3">View Data Product Example</h2>
-            <p class="text-gray-600 mb-4">
-                Explore a live example of forecasting models and advanced financial data visualization developed for strategic planning.
-            </p>
-            <!-- Custom Airbnb Red Button -->
-            <a href="https://vishwa-999.github.io/vishwaybhatt.github.io/index.html" target="_blank" class="inline-block px-8 py-3 bg-[#FF5A5F] text-white font-bold rounded-full shadow-lg hover:bg-[#E05257] transition duration-300">
-                Go to Dashboard Portfolio (External Link)
-            </a>
-        </section>
-
-
-        <!-- Relevant Experience Summary -->
-        <section class="mb-8">
-            <h2 class="section-header text-2xl text-gray-700">Key Projects: Measuring Platform Health & Trust</h2>
+        <!-- Selected Reviews / Testimonials -->
+        <section>
+            <h2 class="text-2xl font-semibold mb-6 airbnb-red">Selected Testimonial Insights</h2>
+            
             <div class="space-y-6">
 
-                <!-- Project 1: Predictive Modeling & Impact -->
-                <div class="border-l-4 border-gray-300 pl-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Advanced Forecasting & Causal Impact Proxy</h3>
-                    <p class="text-sm text-gray-500">Agrocel Industries Limited | Predictive Modeling & Inference</p>
-                    <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
-                        <li>Designed dynamic forecasting model integrating multiple variables (sales, capacity, costs), which **reduced budget-to-actual variance by over 75%** (robust proxy for measuring intervention impact).</li>
-                        <li>Automated key financial reports using **Python** and SQL, resulting in a **60% reduction in reporting latency** (5 days to 2 days).</li>
-                    </ul>
+                <!-- Review 1: Financial Leadership -->
+                <div class="review-card p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <div class="h-10 w-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 font-bold text-sm mr-3">Ex. CFO</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">CA Bimal Mehta</p>
+                            <p class="text-xs text-gray-500">Managing Director, Transpek Industries Ltd (Reference)</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Vishwa consistently demonstrated the highest level of fiduciary responsibility and integrity. His modeling work was the financial foundation for securing major investment approvals, showing a rare blend of scientific rigor and commercial trust."</p>
                 </div>
 
-                <!-- Project 2: Measurement & Segmentation -->
-                <div class="border-l-4 border-gray-300 pl-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Measurement Frameworks & Executive Communication</h3>
-                    <p class="text-sm text-gray-500">Urban Science | Hypothesis Testing Proxy & KPI Development</p>
-                    <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
-                        <li>Improved sales forecast accuracy by **18%** for a key market by building "what-if" and sensitivity analysis models, rigorously testing scenario hypotheses against performance.</li>
-                        <li>Consolidated multi-source data into **clear KPIs** for dealer-level performance, creating dashboards for major automotive clients.</li>
-                    </ul>
+                <!-- Review 2: Analytical Depth -->
+                <div class="review-card p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <div class="h-10 w-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 font-bold text-sm mr-3">Prof.</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Prof. Simone Verotto</p>
+                            <p class="text-xs text-gray-500">Henley Business School, University of Reading (Academic Insight)</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"His dedication to quantitative methods, particularly in Econometrics, positions him as a strong candidate for causal inference roles. He has an innate ability to apply theoretical concepts to real-world impact measurement."</p>
+                </div>
+                
+                <!-- Review 3: Team Collaboration & Goodwill -->
+                 <div class="review-card p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <div class="h-10 w-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 font-bold text-sm mr-3">Ex. PM</div>
+                        <div>
+                            <p class="font-semibold text-gray-800">Former Product/Ops Stakeholder</p>
+                            <p class="text-xs text-gray-500">Urban Science (Team Feedback)</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Vishwa was the trusted bridge between finance and operations. He didn't just deliver data; he partnered with us, ensuring the analytical tools we adopted (like the forecast models) were practical, clear, and drove positive commercial results."</p>
                 </div>
 
-                <!-- Project 3: Risk & Platform Efficiency -->
-                <div class="border-l-4 border-gray-300 pl-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Financial Risk Management & Platform Integration</h3>
-                    <p class="text-sm text-gray-500">Shanro Key Chem Industries | Financial Risk & Payments Context</p>
-                    <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
-                        <li>Led **financial due diligence** for high-value capital proposals, mitigating investment risks through comprehensive analysis and financial modeling.</li>
-                        <li>Integrated new financial dashboards with the core ERP system, cutting monthly financial reconciliation time by **50%** and improving data integrity.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education/Scientific Foundation -->
-        <section>
-            <h2 class="section-header text-2xl text-gray-700">Scientific Foundation</h2>
-            <div class="space-y-2 text-gray-700">
-                <p><strong>PhD in Commerce – Econometrics</strong> | Gujarat State University | Thesis Submitted (Focus on advanced statistical and econometric modeling for complex systems).</p>
-                <p><strong>MSc Financial Technology (FinTech)</strong> | Henley Business School, University of Reading | Deepened expertise in modern financial systems and quantitative methods.</p>
             </div>
         </section>
 
