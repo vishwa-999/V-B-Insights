@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwa Bhatt | Staff Data Scientist Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for professional polish and readability */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb; /* Light background for a clean look */
+        }
+        .section-header {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+        /* Airbnb-inspired accent color: #FF5A5F (Coral/Red) */
+        .airbnb-accent {
+            color: #FF5A5F; 
+        }
+        .metric-box {
+            background-color: #ffffff;
+            border-left: 4px solid #FF5A5F; /* Airbnb Red accent color */
+            transition: all 0.3s ease;
+        }
+        .metric-box:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 md:p-10">
+
+        <!-- Header and Contact Information -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold text-gray-800">Vishwa Y Bhatt</h1>
+            <p class="text-xl text-gray-700 mt-1">Staff Data Scientist | <span class="airbnb-accent font-semibold">Inference, Payments & Platform Trust</span></p>
+            <div class="text-gray-500 text-sm mt-2 space-x-4">
+                <span>(0)7887180718</span>
+                <span>|</span>
+                <a href="mailto:vishwaybhatt@gmail.com" class="hover:text-[#FF5A5F]">vishwaybhatt@gmail.com</a>
+                <span>|</span>
+                <a href="https://linkedin.com/in/vishwabhatt" target="_blank" class="hover:text-[#FF5A5F]">LinkedIn</a>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="mb-8">
+            <h2 class="section-header text-2xl text-gray-700">Driving Decisions with Scientific Rigor</h2>
+            <p class="text-gray-600 leading-relaxed">
+                <span class="text-lg airbnb-accent font-bold mr-2">⭐⭐⭐⭐⭐</span> **Staff Data Scientist** with **9+ years** of industry experience in advanced quantitative analysis, forecasting, and deriving strategic insights from complex financial and operational datasets. Academic specialization in **Econometrics (PhD research)** and **Financial Technology (MSc)** provides a deep foundation in **causal inference, statistical modeling, and hypothesis testing**—key requirements for driving decisions in a platform environment. Proven ability to translate business needs (payments, risk, efficiency) into measurable data frameworks, develop predictive **AI/ML models** to optimize outcomes, and communicate complex research clearly to drive cross-functional product and data roadmaps.
+            </p>
+        </section>
+
+        <!-- Technical Expertise -->
+        <section class="mb-10">
+            <h2 class="section-header text-2xl text-gray-700">Core Expertise (Payments & Inference)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+
+                <!-- Scientific Modeling & Inference -->
+                <div class="metric-box p-4 rounded shadow">
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Scientific Modeling & Inference</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-600">
+                        <li>Causal Inference (Econometrics, QE Methods)</li>
+                        <li>Hypothesis Testing & Statistical Modeling</li>
+                        <li>Predictive/Classification Model Evaluation (ML/AI)</li>
+                        <li>Time-Series Forecasting & Risk Modeling</li>
+                    </ul>
+                </div>
+
+                <!-- Programming & Database -->
+                <div class="metric-box p-4 rounded shadow">
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Programming & Database</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-600">
+                        <li>**Python** (Pandas, NumPy, Scikit-learn)</li>
+                        <li>**SQL** (Expert-level Querying & Database Usage)</li>
+                        <li>Advanced Excel, Data Manipulation, R (basic)</li>
+                        <li>Feature Engineering & Data Validation</li>
+                    </ul>
+                </div>
+
+                <!-- Domain & Platform -->
+                <div class="metric-box p-4 rounded shadow">
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Domain & Platform</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-600">
+                        <li>**Payments/Risk Context**</li>
+                        <li>KPI Development & Measurement Frameworks</li>
+                        <li>P&L Modeling & Financial Inference</li>
+                        <li>Dashboarding (Power BI/Tableau)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prominent Dashboard Link / Data Product Example -->
+        <section class="mb-10 text-center p-6 bg-rose-50 rounded-lg border-2 border-rose-200">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-3">View Data Product Example</h2>
+            <p class="text-gray-600 mb-4">
+                Explore a live example of forecasting models and advanced financial data visualization developed for strategic planning.
+            </p>
+            <!-- Custom Airbnb Red Button -->
+            <a href="https://vishwa-999.github.io/vishwaybhatt.github.io/index.html" target="_blank" class="inline-block px-8 py-3 bg-[#FF5A5F] text-white font-bold rounded-full shadow-lg hover:bg-[#E05257] transition duration-300">
+                Go to Dashboard Portfolio (External Link)
+            </a>
+        </section>
+
+
+        <!-- Relevant Experience Summary -->
+        <section class="mb-8">
+            <h2 class="section-header text-2xl text-gray-700">Key Projects: Measuring Platform Health & Trust</h2>
+            <div class="space-y-6">
+
+                <!-- Project 1: Predictive Modeling & Impact -->
+                <div class="border-l-4 border-gray-300 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Advanced Forecasting & Causal Impact Proxy</h3>
+                    <p class="text-sm text-gray-500">Agrocel Industries Limited | Predictive Modeling & Inference</p>
+                    <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
+                        <li>Designed dynamic forecasting model integrating multiple variables (sales, capacity, costs), which **reduced budget-to-actual variance by over 75%** (robust proxy for measuring intervention impact).</li>
+                        <li>Automated key financial reports using **Python** and SQL, resulting in a **60% reduction in reporting latency** (5 days to 2 days).</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2: Measurement & Segmentation -->
+                <div class="border-l-4 border-gray-300 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Measurement Frameworks & Executive Communication</h3>
+                    <p class="text-sm text-gray-500">Urban Science | Hypothesis Testing Proxy & KPI Development</p>
+                    <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
+                        <li>Improved sales forecast accuracy by **18%** for a key market by building "what-if" and sensitivity analysis models, rigorously testing scenario hypotheses against performance.</li>
+                        <li>Consolidated multi-source data into **clear KPIs** for dealer-level performance, creating dashboards for major automotive clients.</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3: Risk & Platform Efficiency -->
+                <div class="border-l-4 border-gray-300 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Financial Risk Management & Platform Integration</h3>
+                    <p class="text-sm text-gray-500">Shanro Key Chem Industries | Financial Risk & Payments Context</p>
+                    <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
+                        <li>Led **financial due diligence** for high-value capital proposals, mitigating investment risks through comprehensive analysis and financial modeling.</li>
+                        <li>Integrated new financial dashboards with the core ERP system, cutting monthly financial reconciliation time by **50%** and improving data integrity.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education/Scientific Foundation -->
+        <section>
+            <h2 class="section-header text-2xl text-gray-700">Scientific Foundation</h2>
+            <div class="space-y-2 text-gray-700">
+                <p><strong>PhD in Commerce – Econometrics</strong> | Gujarat State University | Thesis Submitted (Focus on advanced statistical and econometric modeling for complex systems).</p>
+                <p><strong>MSc Financial Technology (FinTech)</strong> | Henley Business School, University of Reading | Deepened expertise in modern financial systems and quantitative methods.</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
